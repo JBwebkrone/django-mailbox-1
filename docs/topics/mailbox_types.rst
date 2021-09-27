@@ -43,7 +43,7 @@ Basic IMAP Example: ``imap://username:password@server``
 Basic POP3 Example: ``pop3://username:password@server``
 
 Most mailboxes these days are SSL-enabled;
-if yours use plain SSL add ``+ssl`` to the protocol section of your URI,
+if you use plain SSL add ``+ssl`` to the protocol section of your URI,
 but for STARTTLS add ``+tls``.
 Also, if your username or password include any non-ascii characters,
 they should be URL-encoded  (for example, if your username includes an
